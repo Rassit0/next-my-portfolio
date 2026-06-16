@@ -1,9 +1,9 @@
 "use client";
 import Image from "next/image";
-import { BackgroundLayers } from "./modules/background-layers";
-import { Header } from "./modules/header";
+import { BackgroundLayers } from "@/modules/background-layers";
+import { Header } from "@/modules/header";
 import { useEffect, useRef, useState } from "react";
-import { Footer } from "./modules/footer";
+import { Footer } from "@/modules/footer";
 import { HugeiconsIcon } from "@hugeicons/react";
 import {
   Facebook01Icon,
@@ -13,7 +13,7 @@ import {
   Restaurant02Icon,
   Store01Icon,
 } from "@hugeicons/core-free-icons";
-import { SectionProjects } from "./modules/section-projects";
+import { SectionProjects } from "@/modules/section-projects";
 
 export default function Home() {
   const [typewriterText, setTypewriterText] = useState("");
