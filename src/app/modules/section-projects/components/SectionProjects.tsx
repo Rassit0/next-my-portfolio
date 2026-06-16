@@ -4,7 +4,7 @@ import { Carousel } from "./Carousel";
 export const SectionProjects = () => {
   return (
     <section
-      className="py-margin-desktop px-margin-desktop max-w-container-max mx-auto overflow-hidden"
+      className="py-margin-desktop px-margin-mobile px-margin-desktop max-w-container-max mx-auto overflow-hidden"
       id="proyectos"
     >
       <h2 className="font-display-md text-display-md text-primary-container mb-16 scroll-reveal text-center">

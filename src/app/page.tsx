@@ -258,7 +258,7 @@ export default function Home() {
       <main className="relative z-20">
         {/* <!-- Hero Section --> */}
         <section
-          className="min-h-screen flex flex-col justify-center px-margin-desktop max-w-container-max mx-auto py-margin-desktop"
+          className="min-h-screen flex flex-col justify-center px-margin-desktop px-margin-mobile max-w-container-max mx-auto py-margin-desktop"
           id="inicio"
         >
           <div className="scroll-reveal">
@@ -287,7 +287,7 @@ export default function Home() {
         </section>
         {/* <!-- Especialidades Section --> */}
         <section
-          className="py-margin-desktop px-margin-desktop max-w-container-max mx-auto"
+          className="py-margin-desktop px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto"
           id="especialidades"
         >
           <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-gutter scroll-reveal">
@@ -359,10 +359,10 @@ export default function Home() {
         <SectionProjects />
         {/* <!-- Stack Section --> */}
         <section
-          className="py-margin-desktop bg-surface-container-lowest/50 backdrop-blur-md"
+          className="py-margin-desktop px-margin-mobile bg-surface-container-lowest/50 backdrop-blur-md"
           id="stack"
         >
-          <div className="px-margin-desktop max-w-container-max mx-auto text-center">
+          <div className="px-margin-desktop px-margin-mobile max-w-container-max mx-auto text-center">
             <h2 className="font-display-md text-display-md text-primary-container mb-16 scroll-reveal">
               Tech Stack
             </h2>
@@ -397,7 +397,13 @@ export default function Home() {
         </section>
         {/* <!-- Contact Section --> */}
         <section
-          className="py-margin-desktop px-margin-desktop max-w-container-max mx-auto text-center"
+          className="
+          py-margin-desktop
+    px-margin-mobile
+    md:px-margin-desktop
+    max-w-container-max
+    mx-auto
+    text-center"
           id="contacto"
         >
           <div className="scroll-reveal mb-16">
@@ -409,7 +415,7 @@ export default function Home() {
               una solución de ingeniería de clase mundial.
             </p>
             <div className="inline-flex flex-col md:flex-row items-center gap-6 p-4 bg-white/5 border border-white/10 rounded-2xl backdrop-blur-xl">
-              <span className="text-headline-lg font-headline-lg text-primary-container px-4">
+              <span className="text-headline-lg text-headline-lg-mobile font-headline-lg text-primary-container px-4">
                 mauricio.rr32@gmail.com
               </span>
               <button
