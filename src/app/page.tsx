@@ -274,14 +274,23 @@ export default function Home() {
               <span className="typewriter">{typewriterText}</span>
             </div>
             <div className="flex flex-wrap gap-gutter mt-12">
-              <button className="magnetic-button group relative px-8 py-4 bg-gradient-to-r from-primary-container to-secondary-container text-surface font-bold rounded-full overflow-hidden">
+              <a
+                href="/cv/cv_aramayo_vidaurre_mauricio_ariel.pdf"
+                download="CV_Aramayo_Vidaurre_Mauricio_Ariel.pdf"
+                className="magnetic-button group relative px-8 py-4 bg-gradient-to-r from-primary-container to-secondary-container text-surface font-bold rounded-full overflow-hidden inline-flex items-center justify-center"
+              >
                 <span className="relative z-10">Descargar CV</span>
                 <div className="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300"></div>
-              </button>
-              <button className="magnetic-button group px-8 py-4 border border-primary-container/40 text-primary-container font-bold rounded-full hover:bg-primary-container/10 transition-all flex items-center gap-2">
+              </a>
+              <a
+                href="https://github.com/Rassit0/next-my-portfolio"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="magnetic-button group px-8 py-4 border border-primary-container/40 text-primary-container font-bold rounded-full hover:bg-primary-container/10 transition-all flex items-center gap-2"
+              >
                 <span className="material-symbols-outlined">code</span>
                 GitHub
-              </button>
+              </a>
             </div>
           </div>
         </section>
