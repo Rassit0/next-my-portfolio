@@ -424,7 +424,7 @@ export default function Home() {
               una solución de ingeniería de clase mundial.
             </p>
             <div className="inline-flex flex-col md:flex-row items-center gap-6 p-4 bg-white/5 border border-white/10 rounded-2xl backdrop-blur-xl">
-              <span className="text-headline-lg text-headline-lg-mobile font-headline-lg text-primary-container px-4">
+              <span className="text-headline-lg text-headline-lg-mobile font-headline-lg text-primary-container px-0">
                 mauricio.rr32@gmail.com
               </span>
               <button
