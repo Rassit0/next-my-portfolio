@@ -14,19 +14,25 @@ export const Footer = () => {
         <div className="flex gap-gutter">
           <a
             className="text-on-surface-variant hover:text-primary-container hover:drop-shadow-[0_0_15px_rgba(0,219,231,0.8)] transition-all"
-            href="#"
+            href="mailto:mauricio.rr32@gmail.com"
+            // target="_blank"
+            // rel="noopener noreferrer"
           >
             Email
           </a>
           <a
             className="text-on-surface-variant hover:text-primary-container hover:drop-shadow-[0_0_15px_rgba(0,219,231,0.8)] transition-all"
-            href="#"
+            href="https://github.com/Rassit0"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             GitHub
           </a>
           <a
             className="text-on-surface-variant hover:text-primary-container hover:drop-shadow-[0_0_15px_rgba(0,219,231,0.8)] transition-all"
-            href="#"
+            href="https://www.linkedin.com/in/mauricio-ariel-aramayo-vidaurre-83a57421b"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             LinkedIn
           </a>
