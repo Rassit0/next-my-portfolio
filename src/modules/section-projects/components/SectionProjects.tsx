@@ -175,7 +175,7 @@ export const SectionProjects = () => {
               jugadores, equipos, cursos, temporadas, membresías, pagos,
               asistencia y personal técnico en una solución unificada.
             </p>
-            <div className="flex gap-4">
+            <div className="flex flex-wrap gap-4">
               <span className="px-3 py-1 bg-white/5 border border-white/10 text-xs rounded uppercase tracking-widest">
                 [ NEXT.JS ]
               </span>
