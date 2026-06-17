@@ -153,8 +153,8 @@ export const SectionProjects = () => {
                   "/images/projects/club/players.png",
                   "/images/projects/club/seasons.png",
                   "/images/projects/club/teams.png",
-                  "/images/projects/club/teams-can.png",
-                  "/images/projects/club/noticias-can.png",
+                  // "/images/projects/club/teams-can.png",
+                  // "/images/projects/club/noticias-can.png",
                 ]}
               />
             </div>
