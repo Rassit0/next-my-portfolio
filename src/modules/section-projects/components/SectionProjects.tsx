@@ -20,37 +20,53 @@ export const SectionProjects = () => {
             <div className="absolute inset-0 bg-primary-container/20 blur-2xl rounded-xl opacity-0 group-hover:opacity-100 transition-opacity"></div>
             <div className="relative z-10 overflow-hidden rounded-xl border border-white/10 shadow-2xl aspect-video">
               <Carousel
-                alt="SGIC Dashboard"
+                alt="Inventory"
                 images={[
-                  "https://lh3.googleusercontent.com/aida-public/AB6AXuC99a32y39KVVmSya2_24q_eFjUncZjkdaZ8SfV3Qgd-MAseLSo8GOmMPBqC3wFAGsPfNN_fR_NPdCrBb4Kez26-G6QXA5ZJJqQqaRUR7BWRjYK2knKHjKTyaVHkLz2JujFN0s8giBHZpe7c5SzviQ83PIHb83qo9FpCGfp8hluJ4GNBKJWTy-9JdDzdUhQmC4BtEeS3hLDhRCP7YTqIREhyoAsPkumBvF3PFDYauOc0dwHOW_sxSRp9EsIY2vL3xWTC3bDV_RjIQ",
-                  "https://lh3.googleusercontent.com/aida-public/AB6AXuCUCbB-fITDWOUKyowL9HuOmQ_kWMjBYYa0zw3g-uRyuDnv36Lmt-ag4Gfam7yzuMhPv2kNXEeojeOtfuc9y2rg9u8aLL7iy8ipLIs5LRD5gXztoyPwnZB7neoICMOYnLv6CcD71D2JSpnruamQGl53nJ0kuFJ9VCX-9MYjaBd5SizcdofqXYS_0kf8OL9XYnyyJcfhqmgtMvP6j8XE0pjnokCnYY7h2s4Fdk2hYBA4eUXwCvisqTb83pbWPMPkC6H3LeOiv_cx1g",
+                  "/images/projects/inventory/login-inventory.png",
+                  "/images/projects/inventory/branches.png",
+                  "/images/projects/inventory/categorias.png",
+                  "/images/projects/inventory/productos-list.png",
+                  "/images/projects/inventory/productos-add.png",
+                  "/images/projects/inventory/suppliers.png",
+                  "/images/projects/inventory/warehouses.png",
+                  "/images/projects/inventory/ventas-add.png",
+                  "/images/projects/inventory/usuarios.png",
+                  "/images/projects/inventory/usuarios-add.png",
+                  "/images/projects/inventory/permisos.png",
+                  "/images/projects/inventory/permisos-add.png",
                 ]}
               />
             </div>
             <div className="absolute -bottom-4 -right-4 bg-primary-container text-surface px-6 py-3 font-bold rounded-lg z-20">
-              SGIC V2.0
+              INVENTORY
             </div>
           </div>
           <div className="w-full md:w-1/2">
             <span className="text-primary-container font-label-md">
-              CASE STUDY: LOGISTICS
+              CASE STUDY: INVENTORY
             </span>
             <h3 className="font-display-md text-display-md mb-6">
-              Sistema Global de Inventario
+              Sistema de Gestión de Inventarios
             </h3>
             <p className="text-on-surface-variant text-body-lg mb-8">
-              Reducción del 35% en errores de stock mediante implementación de
-              algoritmos de predicción y escaneo biométrico.
+              Plataforma de inventario diseñada para centralizar la gestión de
+              productos, almacenes, proveedores y ventas en una única solución.
+              Automatiza tareas operativas, mejora la trazabilidad de los
+              movimientos de stock y reduce los errores asociados al control
+              manual de inventarios.
             </p>
-            <div className="flex gap-4">
+            <div className="flex flex-wrap gap-4">
               <span className="px-3 py-1 bg-white/5 border border-white/10 text-xs rounded uppercase tracking-widest">
                 [ REACT ]
               </span>
               <span className="px-3 py-1 bg-white/5 border border-white/10 text-xs rounded uppercase tracking-widest">
-                [ PYTHON ]
+                [ LARAVEL ]
               </span>
               <span className="px-3 py-1 bg-white/5 border border-white/10 text-xs rounded uppercase tracking-widest">
-                [ AWS ]
+                [ POSTGRESQL ]
+              </span>
+              <span className="px-3 py-1 bg-white/5 border border-white/10 text-xs rounded uppercase tracking-widest">
+                [ DOCKER ]
               </span>
             </div>
           </div>
@@ -100,7 +116,7 @@ export const SectionProjects = () => {
               concurrencia con sincronización híbrida para máxima resiliencia
               operativa.
             </p>
-            <div className="flex gap-4 justify-end">
+            <div className="flex flex-wrap gap-4 justify-end">
               <span className="px-3 py-1 bg-white/5 border border-white/10 text-xs rounded uppercase tracking-widest">
                 [ NEXT.JS ]
               </span>
@@ -112,6 +128,9 @@ export const SectionProjects = () => {
               </span>
               <span className="px-3 py-1 bg-white/5 border border-white/10 text-xs rounded uppercase tracking-widest">
                 [ MICROSERVICES ]
+              </span>
+              <span className="px-3 py-1 bg-white/5 border border-white/10 text-xs rounded uppercase tracking-widest">
+                [ DOCKER ]
               </span>
             </div>
           </div>
@@ -127,13 +146,20 @@ export const SectionProjects = () => {
               <Carousel
                 alt="Sports Manager"
                 images={[
-                  "https://lh3.googleusercontent.com/aida-public/AB6AXuCqz2rfjDzcUOxyCvQt02Nu6ck-mlnXl3DlMZzW1BITetiswls88fl52F0-RKb5L_yXmzQsqOzaibpycUTnpund30T8Q6Fj6eCIhF-NZtwjMksJDSiUC55GBejqCdSDEU2aMkH8Rojdr8eB76poHyVTtwA9iYNrxCMLDALV49EugdrIy4T1DKRLd4ZPAp1PbP0mHMa3JwwXHVNTebvpoNU92x6_An5O3B1jNMLZxEt3mWHFhIyt5mpYuOlWA6TJeAoMY1LYacib6Q",
-                  "https://lh3.googleusercontent.com/aida-public/AB6AXuBr7IHcPN2zY7OBj0CX3-GnkhNRzQIMjxOM3CQSi7JX2p1xdSCttH7nlQsO6TQ_bGbn97mYRwQIg7c881Spn7HCi8s5txET6f5xis4ivly3Mt65hfZQl4sUiC_iD7xHGz7ZUgbDw3zvgGfyEVRMG9VbOLQfHyw1yTMLfhBRwZP3O__dujcI8q-NAOlVkhjv8HiD76ws1SMKgwLiQGJBHuhNzj5EqF5bfi_Nb4uMyxL1uXeNtTHjkMCt31XDF-dbUZgApIHVAq2psg",
+                  "/images/projects/club/launcher-can.png",
+                  "/images/projects/club/can-dashboard.png",
+                  "/images/projects/club/categories.png",
+                  "/images/projects/club/disciplines.png",
+                  "/images/projects/club/players.png",
+                  "/images/projects/club/seasons.png",
+                  "/images/projects/club/teams.png",
+                  "/images/projects/club/teams-can.png",
+                  "/images/projects/club/noticias-can.png",
                 ]}
               />
             </div>
             <div className="absolute -bottom-4 -right-4 bg-primary-fixed-dim text-surface px-6 py-3 font-bold rounded-lg z-20">
-              CD MANAGER
+              GESTION CAN
             </div>
           </div>
           <div className="w-full md:w-1/2">
@@ -141,21 +167,26 @@ export const SectionProjects = () => {
               CASE STUDY: SPORTS TECH
             </span>
             <h3 className="font-display-md text-display-md mb-6">
-              Clubes Deportivos
+              GESTION CAN
             </h3>
             <p className="text-on-surface-variant text-body-lg mb-8">
-              Gestión integral de socios y analítica de rendimiento para centros
-              de alto desempeño deportivo.
+              Plataforma de gestión deportiva diseñada para clubes y escuelas de
+              formación, integrando sitio web institucional, administración de
+              jugadores, equipos, cursos, temporadas, membresías, pagos,
+              asistencia y personal técnico en una solución unificada.
             </p>
             <div className="flex gap-4">
               <span className="px-3 py-1 bg-white/5 border border-white/10 text-xs rounded uppercase tracking-widest">
                 [ NEXT.JS ]
               </span>
               <span className="px-3 py-1 bg-white/5 border border-white/10 text-xs rounded uppercase tracking-widest">
-                [ FIREBASE ]
+                [ NESTJS ]
               </span>
               <span className="px-3 py-1 bg-white/5 border border-white/10 text-xs rounded uppercase tracking-widest">
-                [ CHART.JS ]
+                [ POSTGRESQL ]
+              </span>
+              <span className="px-3 py-1 bg-white/5 border border-white/10 text-xs rounded uppercase tracking-widest">
+                [ DOCKER ]
               </span>
             </div>
           </div>

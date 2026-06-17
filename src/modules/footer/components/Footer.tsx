@@ -9,7 +9,7 @@ export const Footer = () => {
           MAAV
         </div>
         <p className="font-body-md text-body-md text-on-surface-variant text-center md:text-left uppercase tracking-tighter">
-          © 2024 MAAV SYSTEMS. ENGINEERED FOR PRECISION.
+          © 2026 MAAV SYSTEMS. ENGINEERED FOR PRECISION.
         </p>
         <div className="flex gap-gutter">
           <a

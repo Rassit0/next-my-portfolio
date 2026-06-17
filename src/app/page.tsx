@@ -265,7 +265,7 @@ export default function Home() {
             <p className="font-label-md text-primary-container mb-unit tracking-widest uppercase">
               System Architect &amp; Developer
             </p>
-            <h1 className="font-display-lg text-display-lg md:text-[96px] leading-[0.9] mb-unit gradient-text-animate tracking-tighter">
+            <h1 className="font-display-lg text-display-lg font-display-md text-display-md md:text-[96px] leading-[0.9] mb-unit gradient-text-animate tracking-tighter">
               Mauricio Ariel
               <br />
               Aramayo Vidaurre
@@ -407,7 +407,7 @@ export default function Home() {
           id="contacto"
         >
           <div className="scroll-reveal mb-16">
-            <h2 className="font-display-lg text-display-lg mb-8 gradient-text-animate">
+            <h2 className="font-display-lg text-display-lg font-display-md text-display-md mb-8 gradient-text-animate">
               ¿Listo para innovar?
             </h2>
             <p className="text-on-surface-variant text-body-lg max-w-xl mx-auto mb-12">
@@ -435,7 +435,9 @@ export default function Home() {
           <div className="flex justify-center gap-gutter pt-8">
             <a
               className="magnetic-button w-16 h-16 rounded-full border border-white/20 flex items-center justify-center hover:bg-white/10 transition-colors group"
-              href="#"
+              href="https://www.linkedin.com/in/mauricio-ariel-aramayo-vidaurre-83a57421b"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               {/* <img
                 alt="LinkedIn"
@@ -451,13 +453,10 @@ export default function Home() {
             </a>
             <a
               className="magnetic-button w-16 h-16 rounded-full border border-white/20 flex items-center justify-center hover:bg-white/10 transition-colors group"
-              href="#"
+              href="https://github.com/Rassit0"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              {/* <img
-                alt="GitHub"
-                className="w-8 h-8 group-hover:scale-110 transition-transform"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuCTOhyrUFAlL9wERQt7K4CBQbG3UAmkkRycX8hP6yruGyPoRCvPDFLAVAPDZZhZAPGeJ7pqEh9KNeNl-jssEoMCATtDE_iCW8oRXN_wuZycnrKuXVJrdNkoOvhtdQpmKA1m-WUc0731x5Tpn0PAi4xaQ2F92T6hqvfb9SI4_T7zvATTG9QPHQoZjA5Ir-kqruRGp2n8NzefRS-fZvwx0iGzJJ7QOoC1DRnmJrHwSTC6B67gw3TgsVtU1pPqQRJYPjcwyaG8UL8CSA"
-              /> */}
               <HugeiconsIcon
                 icon={Github01Icon}
                 size={35}
@@ -467,7 +466,9 @@ export default function Home() {
             </a>
             <a
               className="magnetic-button w-16 h-16 rounded-full border border-white/20 flex items-center justify-center hover:bg-white/10 transition-colors group"
-              href="#"
+              href="https://www.facebook.com/mauricioariel.aramayovidaurre.3/"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               {/* <img
                 alt="Twitter"

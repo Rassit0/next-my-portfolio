@@ -106,7 +106,9 @@ export const Header = () => {
             </a>
 
             <a
-              href="#contacto"
+              href="https://wa.me/59176681428"
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-primary-container text-on-primary-container px-6 py-2 rounded-full font-label-md hover:shadow-[0_0_15px_rgba(0,242,255,0.6)] transition-all"
             >
               Connect
@@ -185,7 +187,9 @@ export const Header = () => {
         </a>
 
         <a
-          href="#contacto"
+          href="https://wa.me/59176681428"
+          target="_blank"
+          rel="noopener noreferrer"
           onClick={closeMenu}
           className="mt-4 bg-primary-container text-surface px-12 py-4 rounded-full font-bold text-xl"
         >

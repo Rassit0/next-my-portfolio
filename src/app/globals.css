@@ -3,11 +3,10 @@
 /* =========================
    DESIGN TOKENS
 ========================= */
-
 :root {
-  --font-headline: var(--font-syne);
-  --font-display: var(--font-syne);
-  --font-body: var(--font-jetbrains);
+  --font-headline: "Syne", sans-serif;
+  --font-display: "Syne", sans-serif;
+  --font-body: "JetBrains Mono", monospace;
 
   /* Colors */
   --background: #121414;
@@ -22,10 +21,12 @@
 
   --primary: #e1fdff;
   --primary-container: #00f2ff;
+  --on-primary-container: #006a71;
   --primary-fixed-dim: #00dbe7;
 
   --secondary: #d1bcff;
   --secondary-container: #7000ff;
+  --on-secondary-container: #ddcdff;
 
   --on-surface: #e3e2e2;
   --on-surface-variant: #b9cacb;
@@ -40,157 +41,58 @@
   --gutter: 24px;
   --unit: 8px;
 
-  /* Typography */
-  --display-lg: 72px;
-  --display-md: 48px;
+  /* Display Sizes & Weights */
+  --display-lg-size: 72px;
+  --display-lg-line-height: 1.1;
+  --display-lg-weight: 800;
+  --display-lg-letter-spacing: -0.02em;
 
-  --headline-lg: 32px;
+  /* MEJORA: Variante responsive móvil para Display Large */
+  --display-lg-sm-size: 56px;
+  --display-lg-sm-line-height: 1.1;
 
-  --body-lg: 18px;
-  --body-md: 16px;
+  --display-md-size: 46px;
+  --display-md-line-height: 1.2;
+  --display-md-weight: 700;
 
-  --label-md: 14px;
+  /* MEJORA: Variante responsive móvil para Display Medium */
+  --display-md-sm-size: 36px;
+  --display-md-sm-line-height: 1.2;
 
-  /* Additional Material Design Colors */
+  /* Headlines */
+  --headline-lg-size: 32px;
+  --headline-lg-line-height: 1.3;
+  --headline-lg-weight: 700;
 
---tertiary-fixed: #e5e2e1;
---on-tertiary-fixed-variant: #474646;
+  --headline-lg-mobile-size: 24px;
+  --headline-lg-mobile-line-height: 1.3;
+  --headline-lg-mobile-weight: 700;
 
---on-primary-fixed-variant: #004f54;
---on-primary-fixed: #002022;
+  /* Body */
+  --body-lg-size: 18px;
+  --body-lg-line-height: 1.6;
+  --body-lg-weight: 400;
 
---on-error: #690005;
+  --body-md-size: 16px;
+  --body-md-line-height: 1.6;
+  --body-md-weight: 400;
 
---tertiary: #faf6f6;
+  /* Labels */
+  --label-md-size: 14px;
+  --label-md-line-height: 1;
+  --label-md-weight: 500;
+  --label-md-letter-spacing: 0.05em;
 
---on-secondary: #3c0090;
---on-secondary-container: #ddcdff;
-
---tertiary-container: #dddad9;
-
---on-error-container: #ffdad6;
-
---inverse-surface: #e3e2e2;
-
---secondary-fixed-dim: #d1bcff;
-
---on-secondary-fixed-variant: #5700c9;
-
---on-tertiary-container: #615f5f;
-
---surface-bright: #383939;
-
---primary-fixed: #74f5ff;
-
---inverse-on-surface: #2f3131;
-
---on-secondary-fixed: #23005b;
-
---on-background: #e3e2e2;
-
---on-primary-container: #006a71;
-
---surface-variant: #343535;
-
---on-primary: #00363a;
-
---tertiary-fixed-dim: #c9c6c5;
-
---secondary-fixed: #e9ddff;
-
---on-tertiary: #313030;
-
---on-tertiary-fixed: #1c1b1b;
-
---outline-variant: #3a494b;
-
---surface-tint: #00dbe7;
-
---inverse-primary: #00696f;
-
---error-container: #93000a;
-
-
-/* Display */
---display-lg-size: 72px;
---display-lg-line-height: 1.1;
---display-lg-weight: 800;
-
---display-md-size: 48px;
---display-md-line-height: 1.2;
---display-md-weight: 700;
-
-/* Headlines */
---headline-lg-size: 32px;
---headline-lg-line-height: 1.3;
---headline-lg-weight: 700;
-
---headline-lg-mobile-size: 24px;
---headline-lg-mobile-line-height: 1.3;
---headline-lg-mobile-weight: 700;
-
-/* Body */
---body-lg-size: 18px;
---body-lg-line-height: 1.6;
---body-lg-weight: 400;
-
---body-md-size: 16px;
---body-md-line-height: 1.6;
---body-md-weight: 400;
-
-/* Labels */
---label-md-size: 14px;
---label-md-line-height: 1;
---label-md-weight: 500;
---label-md-letter-spacing: 0.05em;
-
-/* Border Radius */
---radius-default: 0.125rem;
---radius-lg: 0.25rem;
---radius-xl: 0.5rem;
---radius-full: 0.75rem;
-
-/* Fonts */
---font-headline: "Syne", sans-serif;
---font-display: "Syne", sans-serif;
---font-body: "JetBrains Mono", monospace;
-
-/* Typography */
---headline-lg-mobile-size: 24px;
---headline-lg-mobile-line-height: 1.3;
---headline-lg-mobile-weight: 700;
-
---headline-lg-size: 32px;
---headline-lg-line-height: 1.3;
---headline-lg-weight: 700;
-
---body-md-size: 16px;
---body-md-line-height: 1.6;
---body-md-weight: 400;
-
---body-lg-size: 18px;
---body-lg-line-height: 1.6;
---body-lg-weight: 400;
-
---label-md-size: 14px;
---label-md-line-height: 1;
---label-md-weight: 500;
---label-md-letter-spacing: 0.05em;
-
---display-md-size: 48px;
---display-md-line-height: 1.2;
---display-md-weight: 700;
-
---display-lg-size: 72px;
---display-lg-line-height: 1.1;
---display-lg-weight: 800;
---display-lg-letter-spacing: -0.02em;
+  /* Border Radius */
+  --radius-default: 0.125rem;
+  --radius-lg: 0.25rem;
+  --radius-xl: 0.5rem;
+  --radius-full: 0.75rem;
 }
 
 /* =========================
    TAILWIND V4 TOKENS
 ========================= */
-
 @theme {
   /* Colors */
   --color-background: var(--background);
@@ -205,6 +107,7 @@
 
   --color-primary: var(--primary);
   --color-primary-container: var(--primary-container);
+  --color-on-primary-container: var(--on-primary-container);
   --color-primary-fixed-dim: var(--primary-fixed-dim);
 
   --color-secondary: var(--secondary);
@@ -216,90 +119,60 @@
   --color-outline: var(--outline);
   --color-error: var(--error);
 
-  /* Spacing */
+  /* Extended Colors */
+  --color-tertiary: var(--tertiary);
+  --color-tertiary-container: var(--tertiary-container);
+  --color-tertiary-fixed: var(--tertiary-fixed);
+  --color-tertiary-fixed-dim: var(--tertiary-fixed-dim);
+  --color-primary-fixed: var(--primary-fixed);
+  --color-secondary-fixed: var(--secondary-fixed);
+  --color-secondary-fixed-dim: var(--secondary-fixed-dim);
+  --color-surface-bright: var(--surface-bright);
+  --color-surface-variant: var(--surface-variant);
+  --color-surface-tint: var(--surface-tint);
+  --color-inverse-surface: var(--inverse-surface);
+  --color-inverse-primary: var(--inverse-primary);
+  --color-inverse-on-surface: var(--inverse-on-surface);
+  --color-on-background: var(--on-background);
+  --color-on-primary: var(--on-primary);
+  --color-on-primary-container: var(--on-primary-container);
+  --color-on-primary-fixed: var(--on-primary-fixed);
+  --color-on-primary-fixed-variant: var(--on-primary-fixed-variant);
+  --color-on-secondary: var(--on-secondary);
+  --color-on-secondary-container: var(--on-secondary-container);
+  --color-on-secondary-fixed: var(--on-secondary-fixed);
+  --color-on-secondary-fixed-variant: var(--on-secondary-fixed-variant);
+  --color-on-tertiary: var(--on-tertiary);
+  --color-on-tertiary-container: var(--on-tertiary-container);
+  --color-on-tertiary-fixed: var(--on-tertiary-fixed);
+  --color-on-tertiary-fixed-variant: var(--on-tertiary-fixed-variant);
+  --color-on-error: var(--on-error);
+  --color-on-error-container: var(--on-error-container);
+  --color-error-container: var(--error-container);
+  --color-outline-variant: var(--outline-variant);
+
+  /* Spacing & Layout */
+  --spacing-unit: var(--unit);
   --spacing-margin-desktop: var(--margin-desktop);
   --spacing-margin-mobile: var(--margin-mobile);
   --spacing-gutter: var(--gutter);
-
-  /* Container */
   --container-container-max: var(--container-max);
 
+  /* Radius */
+  --radius-default: var(--radius-default);
+  --radius-lg: var(--radius-lg);
+  --radius-xl: var(--radius-xl);
+  --radius-full: var(--radius-full);
 
-  /* Extended Colors */
-
---color-tertiary: var(--tertiary);
---color-tertiary-container: var(--tertiary-container);
-
---color-tertiary-fixed: var(--tertiary-fixed);
---color-tertiary-fixed-dim: var(--tertiary-fixed-dim);
-
---color-primary-fixed: var(--primary-fixed);
-
---color-secondary-fixed: var(--secondary-fixed);
---color-secondary-fixed-dim: var(--secondary-fixed-dim);
-
---color-surface-bright: var(--surface-bright);
---color-surface-variant: var(--surface-variant);
---color-surface-tint: var(--surface-tint);
-
---color-inverse-surface: var(--inverse-surface);
---color-inverse-primary: var(--inverse-primary);
---color-inverse-on-surface: var(--inverse-on-surface);
-
---color-on-background: var(--on-background);
-
---color-on-primary: var(--on-primary);
---color-on-primary-container: var(--on-primary-container);
---color-on-primary-fixed: var(--on-primary-fixed);
---color-on-primary-fixed-variant: var(--on-primary-fixed-variant);
-
---color-on-secondary: var(--on-secondary);
---color-on-secondary-container: var(--on-secondary-container);
---color-on-secondary-fixed: var(--on-secondary-fixed);
---color-on-secondary-fixed-variant: var(--on-secondary-fixed-variant);
-
---color-on-tertiary: var(--on-tertiary);
---color-on-tertiary-container: var(--on-tertiary-container);
---color-on-tertiary-fixed: var(--on-tertiary-fixed);
---color-on-tertiary-fixed-variant: var(--on-tertiary-fixed-variant);
-
---color-on-error: var(--on-error);
---color-on-error-container: var(--on-error-container);
-
---color-error-container: var(--error-container);
-
---color-outline-variant: var(--outline-variant);
-
-/* Border Radius */
---radius: 0.125rem;
---radius-lg: 0.25rem;
---radius-xl: 0.5rem;
---radius-full: 0.75rem;
-
---spacing-unit: var(--unit);
---spacing-margin-desktop: var(--margin-desktop);
---spacing-margin-mobile: var(--margin-mobile);
---spacing-gutter: var(--gutter);
-
---font-display: var(--font-display);
---font-body: var(--font-body);
-
-/* Radius */
---radius-default: var(--radius-default);
---radius-lg: var(--radius-lg);
---radius-xl: var(--radius-xl);
---radius-full: var(--radius-full);
-
-/* Fonts */
---font-headline: var(--font-headline);
---font-display: var(--font-display);
---font-body: var(--font-body);
+  /* Fonts */
+  --font-headline: var(--font-headline);
+  --font-display: var(--font-display);
+  --font-body: var(--font-body);
 }
 
 /* =========================
    CUSTOM UTILITIES
 ========================= */
-
 @utility max-w-container-max {
   max-width: var(--container-max);
 }
@@ -340,11 +213,28 @@
   letter-spacing: var(--label-md-letter-spacing);
 }
 
+/* MEJORA: Utilidad de tamaño reducido para móviles (Display MD) */
+@utility text-display-md-sm {
+  font-family: var(--font-display);
+  font-size: var(--display-md-sm-size);
+  line-height: var(--display-md-sm-line-height);
+  font-weight: var(--display-md-weight);
+}
+
 @utility text-display-md {
   font-family: var(--font-display);
   font-size: var(--display-md-size);
   line-height: var(--display-md-line-height);
   font-weight: var(--display-md-weight);
+}
+
+/* MEJORA: Utilidad de tamaño reducido para móviles (Display LG) */
+@utility text-display-lg-sm {
+  font-family: var(--font-display);
+  font-size: var(--display-lg-sm-size);
+  line-height: var(--display-lg-sm-line-height);
+  font-weight: var(--display-lg-weight);
+  letter-spacing: var(--display-lg-letter-spacing);
 }
 
 @utility text-display-lg {
@@ -355,26 +245,25 @@
   letter-spacing: var(--display-lg-letter-spacing);
 }
 
-@utility rounded-default {
-  border-radius: var(--radius-default);
-}
+@utility rounded-default { border-radius: var(--radius-default); }
+@utility rounded-lg-custom { border-radius: var(--radius-lg); }
+@utility rounded-xl-custom { border-radius: var(--radius-xl); }
+@utility rounded-full-custom { border-radius: var(--radius-full); }
 
-@utility rounded-lg-custom {
-  border-radius: var(--radius-lg);
-}
-
-@utility rounded-xl-custom {
-  border-radius: var(--radius-xl);
-}
-
-@utility rounded-full-custom {
-  border-radius: var(--radius-full);
-}
+/* =========================
+   FONT FAMILY UTILITIES (Tu versión funcional)
+========================= */
+@utility font-headline-lg-mobile { font-family: var(--font-display); }
+@utility font-headline-lg { font-family: var(--font-display); }
+@utility font-display-md { font-family: var(--font-display); }
+@utility font-display-lg { font-family: var(--font-display); }
+@utility font-body-md { font-family: var(--font-body); }
+@utility font-body-lg { font-family: var(--font-body); }
+@utility font-label-md { font-family: var(--font-body); }
 
 /* =========================
    BASE
 ========================= */
-
 html,
 body {
   width: 100%;
@@ -398,7 +287,6 @@ body {
 /* =========================
    ANIMATIONS
 ========================= */
-
 @keyframes glitch {
   0% { transform: translate(0); }
   20% { transform: translate(-2px, 2px); }
@@ -418,30 +306,22 @@ body {
 /* =========================
    TYPEWRITER
 ========================= */
-
 .typewriter::after {
   content: "|";
   animation: blink 1s infinite;
 }
 
 @keyframes blink {
-  0%, 100% {
-    opacity: 1;
-  }
-
-  50% {
-    opacity: 0;
-  }
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
 }
 
 /* =========================
    SCROLL REVEAL
 ========================= */
-
 .scroll-reveal {
   opacity: 0;
   transform: translateY(30px) rotateX(-5deg);
-
   transition:
     opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1),
     transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
@@ -455,25 +335,18 @@ body {
 /* =========================
    CARDS
 ========================= */
-
 .tilt-card {
   transform-style: preserve-3d;
   transition: transform 0.1s ease;
 }
 
 .magnetic-button {
-  transition: transform 0.3s cubic-bezier(
-    0.23,
-    1,
-    0.32,
-    1
-  );
+  transition: transform 0.3s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
 /* =========================
    GRADIENT TEXT
 ========================= */
-
 .gradient-text-animate {
   background: linear-gradient(
     90deg,
@@ -481,28 +354,21 @@ body {
     var(--secondary-container),
     var(--primary-container)
   );
-
   background-size: 200% auto;
-
   background-clip: text;
   -webkit-background-clip: text;
-
   color: transparent;
   -webkit-text-fill-color: transparent;
-
   animation: shine 3s linear infinite;
 }
 
 @keyframes shine {
-  to {
-    background-position: 200% center;
-  }
+  to { background-position: 200% center; }
 }
 
 /* =========================
    SCROLLBAR
 ========================= */
-
 ::-webkit-scrollbar {
   width: 6px;
 }
@@ -519,9 +385,8 @@ body {
 /* =========================
    NOISE OVERLAY
 ========================= */
-
 .noise-overlay {
-  background-image: url("/textures/carbon-fibre.png");
+  /* background-image: url("/textures/carbon-fibre.png"); */
   opacity: 0.05;
   pointer-events: none;
 }
@@ -529,16 +394,9 @@ body {
 /* =========================
    CAROUSEL
 ========================= */
-
 .carousel-track {
   display: flex;
-
-  transition: transform 0.5s cubic-bezier(
-    0.4,
-    0,
-    0.2,
-    1
-  );
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .carousel-slide {
@@ -547,9 +405,7 @@ body {
 
 .carousel-dot.active {
   width: 1.5rem;
-
   background-color: var(--primary-container);
-
   box-shadow:
     0 0 10px var(--primary-container),
     0 0 20px var(--primary-container);
@@ -558,49 +414,10 @@ body {
 /* =========================
    MOBILE MENU
 ========================= */
-
 .mobile-menu {
-  transition: transform 0.4s cubic-bezier(
-    0.16,
-    1,
-    0.3,
-    1
-  );
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .mobile-menu.hidden-menu {
   transform: translateX(100%);
 }
-
-/* =========================
-   FONT FAMILY UTILITIES
-========================= */
-
-@utility font-headline-lg-mobile {
-  font-family: var(--font-display);
-}
-
-@utility font-headline-lg {
-  font-family: var(--font-display);
-}
-
-@utility font-display-md {
-  font-family: var(--font-display);
-}
-
-@utility font-display-lg {
-  font-family: var(--font-display);
-}
-
-@utility font-body-md {
-  font-family: var(--font-body);
-}
-
-@utility font-body-lg {
-  font-family: var(--font-body);
-}
-
-@utility font-label-md {
-  font-family: var(--font-body);
-}
-
